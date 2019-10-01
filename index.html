@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Mean-ingful Data</h1>
+    <section id="intro">
+        <blockquote>
+            The process of visually exploring data can be summarized in a single sentence: <b>find patterns and trends lurking in the data and then observe the deviations from those patterns</b>.
+        </blockquote>
+        <p>
+            That is what Cairo said chapter 6 that we read. And from that definition, the <b>norms</b> is what go along with the trends of the data, and the <b>exceptions</b> are outliers, a value that is far from the norm.
+        </p>
+        <p><b>Norms</b> including:</p>
+        <ul>
+            <li>Mean: the sum dividing by the total count</li>
+            <li>Mode: the value that appears most frequent</li>
+            <li>Median: the middle value when sorted all value</li>
+            <li>Range: the difference between the biggest and smallest value</li>
+        </ul>
+    </section>
+    <section id="main1">
+        <p>I'm taking data from this site: <a href="http://www.iu.qs.com/product/2019-qs-world-university-rankings-result-tables-excel-format/">2019 QS World University Rankings &reg; Result tables</a>. I only take the data of universities and colleges in the U.S and make it into things that we can look into easier.</p>
+        <p>Out of 156 universities and colleges, this histogram shows the distributions of score:</p>
+        <figure>
+            <img src="Histogram.png" alt="Histogram" />
+            <figcaption>A histogram of 156 universities and colleges in U.S</figcaption>
+        </figure>
+        <p>I used an online generator for the graph because my Excel version don't have histogram in the graph options. The x-axis is the score distribution and the y-axis is number of schools in that score range.</p>
+        <p>The <b>mode</b> of this data set is 7.2-14.2, the <b>median</b> is 27.5, the <b>mean</b> is 36.25, and the <b>range</b> is 92.8. Because every school have the same weight, so we don't need to calculated the weighted mean.</p>
+        </section>
+    <section id="main2">
+        <p>Here's a scatter plot of the data set:</p>
+        <figure>
+            <img src="Strip%20plot.png" alt="Scatter plot" />
+            <figcaption>A scatter plot of the same data set</figcaption>
+        </figure>
+        <p>50 states are numbered in alphabetical order in this page <a href="https://abbreviations.yourdictionary.com/articles/state-abbrev.html">US States</a><br />
+            Each dot represents one university/college, the x-axis is the state number and y-axis is the score.
+        <br />
+            Base on this graph, we can see that there are some states with a lot of good schools like number 5, or some states with one good school and the rest are normal to not very good like number 30. But this data set doesn't show every school so we can't conclude anything from it yet.
+        </p>
+    </section>
+    <section id="main3">
+        <p>
+            The graph above doesn't quite show what's the exceptions are. So here's another one (I make this one up):</p>
+        <figure>
+            <img src="normsandexceptions.png" alt="Norms and Exceptions" />
+            <figcaption>Scores of a test in a Computer Science class</figcaption>
+        </figure>
+        <p>
+            Here the exception is one person scoring 10 on the test. Everyone else is in the range from 3 to 6, but the <b>exception</b> is a 10. So an <b>exception</b> is an outlier in the data set.
+        </p>
+    </section>
+    </body>
+</html>

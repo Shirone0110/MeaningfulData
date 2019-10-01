@@ -1,0 +1,60 @@
+body
+{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: red;
+}
+
+blockquote
+{
+    font-style: italic;
+}
+
+figure
+{
+    text-align: center;
+}
+
+figure>img
+{
+    width: 100%;
+    border-bottom: 10px;
+}
+
+#intro
+{
+    background-color: #ffff99;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#main1
+{
+    background-color: #b3ffb3;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#main2
+{
+    background-color: #b3ffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#main3
+{
+    background-color: #ffcce6;
+    border-radius: 10px;
+    padding: 10px;
+}
